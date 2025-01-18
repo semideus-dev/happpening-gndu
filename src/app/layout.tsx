@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 import { cn } from "@/lib/utils";
 import { Poppins } from "next/font/google";
-import { ThemeProvider } from "@/components/theme-provider";
+import { ThemeProvider } from "@/components/global/theme-provider";
 
 const appfont = Poppins({
   subsets: ["latin"],
