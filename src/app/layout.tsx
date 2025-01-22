@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import { cn } from "@/lib/utils";
 import { Poppins } from "next/font/google";
 import { ThemeProvider } from "@/components/global/theme-provider";
+import { Toaster } from "@/components/ui/toaster";
 
 const appfont = Poppins({
   subsets: ["latin"],
@@ -31,6 +32,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>

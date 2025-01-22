@@ -25,7 +25,7 @@ export const nav = {
     },
     {
       title: "New Event",
-      url: "#",
+      url: "/events/new",
       icon: Plus,
     },
     {
